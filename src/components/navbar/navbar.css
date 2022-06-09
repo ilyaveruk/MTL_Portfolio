@@ -16,18 +16,24 @@
 
 .mtl__navbar-links_logo {
     margin-right: 10rem;
+    margin-bottom: 2rem;
 }
 
 .mtl__navbar-links_logo img {
-    width: 150px;
+    width: 130px;
     height: 100px;
 }
 
 .mtl__navbar-links_container {
     display: flex;
     flex-direction: row;
-    translate: 170px;
+    margin-left: 200px;
 
+}
+.mtl__link-element{
+    padding-right: 100px;
+    font-size: 20px;
+    align-items: center;
 }
 
 .mtl__navbar-sign {
@@ -79,6 +85,7 @@
     border-radius: 5px;
     box-shadow:rgba(0,0,0,0.2);
     opacity: 80%;
+
 }
 
 .mtl__navbar-menu_container p {
@@ -87,6 +94,7 @@
 
 .mtl__navbar-menu_container-links-sign {
     display: none;
+
 }
 
 @media screen and (max-width: 1050px){

@@ -13,7 +13,7 @@ function App() {
             <About/>
             <Features/>
             <Possibility/>
-            <CTA/>y
+            <CTA/>
             <Blog/>
             <Footer/>
 

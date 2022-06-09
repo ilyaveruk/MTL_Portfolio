@@ -3,13 +3,13 @@ import {RiMenu3Line, RiCloseLine} from "react-icons/ri";
 import './navbar.css';
 import logo from '../../assets/mtl.png';
 
-const Menu = () => (
+const Menu = (props) => (
     <>
-        <p><a href="#home">Home</a></p>
-        <p><a href="#about">About Us</a></p>
-        <p><a href="#possibility">Motivation</a></p>
-        <p><a href="#features">Company vision</a></p>
-        <p><a href="#blog">News</a></p>
+        <p><a className={props.className} href="#home">Home</a></p>
+        <p><a className={props.className} href="#about">About Us</a></p>
+        <p><a className={props.className} href="#possibility">Motivation</a></p>
+        <p><a className={props.className} href="#features">Company vision</a></p>
+        <p><a className={props.className} href="#blog">News</a></p>
     </>
 )
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <img src={logo} alt="logo"/>
                 </div>
                 <div className="mtl__navbar-links_container">
-                    <Menu/>
+                    <Menu className="mtl__link-element"/>
                 </div>
             </div>
 
