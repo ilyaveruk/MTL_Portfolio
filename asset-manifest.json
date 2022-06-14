@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MTL_Portfolio/static/css/main.c27f38b5.css",
-    "main.js": "/MTL_Portfolio/static/js/main.72c59c4f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/MTL_Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/robot.png": "/MTL_Portfolio/static/media/robot.fa143764e24a0d12b848.png",
-    "static/media/jet4.png": "/MTL_Portfolio/static/media/jet4.abfee29ab3a29cee2ae7.png",
-    "static/media/blazer.png": "/MTL_Portfolio/static/media/blazer.fa1525023a5d744f9b97.png",
-    "static/media/jet.jpg": "/MTL_Portfolio/static/media/jet.ec7f5d620cc04e5d345f.jpg",
-    "static/media/jet2.jpg": "/MTL_Portfolio/static/media/jet2.cb450d17e152e3b902fb.jpg",
-    "static/media/mtl.png": "/MTL_Portfolio/static/media/mtl.8cdcab36e2f32e05bba0.png",
-    "static/media/people.png": "/MTL_Portfolio/static/media/people.5cd2d6fbcd48bd63f106.png",
-    "static/media/jet3.jpg": "/MTL_Portfolio/static/media/jet3.6214d13096fc4cf63db1.jpg",
-    "index.html": "/MTL_Portfolio/index.html",
-    "main.c27f38b5.css.map": "/MTL_Portfolio/static/css/main.c27f38b5.css.map",
-    "main.72c59c4f.js.map": "/MTL_Portfolio/static/js/main.72c59c4f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/MTL_Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.c27f38b5.css",
+    "main.js": "/static/js/main.cc7c07ec.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/robot.png": "/static/media/robot.fa143764e24a0d12b848.png",
+    "static/media/jet4.png": "/static/media/jet4.abfee29ab3a29cee2ae7.png",
+    "static/media/blazer.png": "/static/media/blazer.fa1525023a5d744f9b97.png",
+    "static/media/jet.jpg": "/static/media/jet.ec7f5d620cc04e5d345f.jpg",
+    "static/media/jet2.jpg": "/static/media/jet2.cb450d17e152e3b902fb.jpg",
+    "static/media/mtl.png": "/static/media/mtl.8cdcab36e2f32e05bba0.png",
+    "static/media/people.png": "/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/jet3.jpg": "/static/media/jet3.6214d13096fc4cf63db1.jpg",
+    "index.html": "/index.html",
+    "main.c27f38b5.css.map": "/static/css/main.c27f38b5.css.map",
+    "main.cc7c07ec.js.map": "/static/js/main.cc7c07ec.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c27f38b5.css",
-    "static/js/main.72c59c4f.js"
+    "static/js/main.cc7c07ec.js"
   ]
 }
