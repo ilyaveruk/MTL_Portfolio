@@ -1,9 +1,31 @@
 import React from 'react';
+import { useState } from "react";
+import Axios from "axios";
 import './header.css';
 import people from '../../assets/people.png';
 import ai from '../../assets/blazer.png';
+import swal from 'sweetalert2';
 
 const Header = () => {
+
+    const [email, setEmail] = useState("");
+
+    const addEmail = () => {
+        Axios.post("http://localhost:3001/create", {
+            email: email,
+        }).then(() => {
+            swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Email has been submitted ' + String.fromCodePoint(0x1F601) ,
+                showConfirmButton: true,
+                timer: 5000,
+                text:"We will contact you soon"
+            })
+        });
+    };
+
+
     return (
         <div className="gpt3__header section__padding" id="home">
             <div className="gpt3__header-content">
@@ -13,8 +35,8 @@ const Header = () => {
                 </p>
 
                 <div className="gpt3__header-content__input">
-                    <input type="email" placeholder="Your Email Address"/>
-                    <button type="button">Get Started</button>
+                    <input onChange={(e)=> setEmail(e.target.value)} type="email" placeholder="Your Email Address"/>
+                    <button onClick={addEmail} type="button" >Get Started</button>
                 </div>
 
                 <div className="gpt3__header-content__people">
