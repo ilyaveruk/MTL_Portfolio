@@ -1,11 +1,11 @@
-.gpt3__brand {
+.mtl__brand {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.gpt3__brand div {
+.mtl__brand div {
     flex: 1;
     max-width: 300px;
     min-width: 100px;
@@ -14,4 +14,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+   .mtl__brand img {
+       object-fit: contain;
+       width: 100%;
+   }
 }

@@ -4,7 +4,7 @@ import {  turbine, btl,fanuc } from './imports';
 
 const Brand = () => {
     return (
-        <div className="gpt3__brand section__padding">
+        <div className="mtl__brand section__padding">
             <div>
                 <img src={btl}  alt="google"/>
             </div>

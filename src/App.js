@@ -1,6 +1,6 @@
 import './App.css';
 import {Footer, Blog, Possibility, Features, About, Header} from './containers';
-import {CTA, Brand, Navbar} from './components';
+import { Brand, Navbar} from './components';
 
 function App() {
     return (
@@ -13,7 +13,6 @@ function App() {
             <About/>
             <Features/>
             <Possibility/>
-            <CTA/>
             <Blog/>
             <Footer/>
 
